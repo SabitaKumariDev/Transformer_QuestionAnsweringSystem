@@ -59,13 +59,13 @@ Libraries: TensorFlow, PyTorch, Hugging Face Transformers, and other dependencie
 Setup
 1. Clone the repository:
    
-git clone https://github.com/your-username/transformer-qa-system.git
+   git clone https://github.com/your-username/transformer-qa-system.git
 
-cd transformer-qa-system
+   cd transformer-qa-system
 
 2. Install dependencies:
    
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Download datasets and place them in the data/ directory.
 
