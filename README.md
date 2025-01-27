@@ -14,7 +14,9 @@ This project implements a Question Answering (QA) system using state-of-the-art 
 
 The project utilizes the following datasets:
 **1. SQuAD v1.1:** Contains over 100k question-answer pairs based on Wikipedia articles.
+
 **2. CovidQA:** Built from the Kaggle CORD-19 dataset, focused on COVID-19-related questions.
+
 **3. CovidGQA:** A manually curated dataset with general COVID-19 questions and answers from medical sources.
 
 Example data entries include:
@@ -71,20 +73,26 @@ These results showcase the effectiveness of transformer models in handling vario
 **Challenges and Solutions**
 **1. Handling Unanswerable Questions:**
 Strategy: Modified output layers to differentiate between answerable and unanswerable questions.
+
 **2. Dataset Noise:**
 Solution: Cleaned datasets using preprocessing techniques to remove irrelevant or incomplete data.
+
 **3. Performance Bottlenecks:**
 Approach: Introduced Highway Networks and BiLSTM layers to optimize embeddings and capture contextual relationships【16†source】【19†source】.
 
 **Future Work**
 1. Expand the system to support additional datasets and languages.
+   
 2. Implement real-time API integration for web-based QA applications.
+   
 3. Explore alternative pre-training objectives for better generalization.
 
 **References**
 
 **1. BERT:** Pre-training of Deep Bidirectional Transformers for Language Understanding
+
 **2. SQuAD:** The Stanford Question Answering Dataset
+
 **3. T5:** Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
 
 
